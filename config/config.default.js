@@ -21,3 +21,9 @@ exports.middleware = [
 exports.robot = {
   ua: [/curl/i, /Baiduspider/i]
 };
+
+exports.cluster = {
+  listen: {
+    port: 7055,
+  },
+};
