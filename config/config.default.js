@@ -15,7 +15,8 @@ exports.news = {
 
 // add middleware robot
 exports.middleware = [
-  'robot'
+  'robot',
+  // 'log_request'
 ];
 // robot's configurations
 exports.robot = {
